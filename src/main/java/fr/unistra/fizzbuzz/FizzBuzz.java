@@ -1,6 +1,6 @@
 package fr.unistra.fizzbuzz;
 
-public class FizzBuzz {
+public class FizzBuzz implements Int2String {
 	
 	public String convert(int number) {
 		String res = "";
