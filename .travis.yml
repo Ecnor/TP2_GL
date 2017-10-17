@@ -1,2 +1,5 @@
 language: java
 sudo: false
+
+after_success:
+  - javadoc -private -sourcepath "src/main/java:src/test/java" -d doc/ fr.unistra.fizzbuzz
